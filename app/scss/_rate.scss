@@ -6,35 +6,80 @@
 	
 	&__title-item {
 		text-transform: uppercase;
+		transition: all 0.5s;
 		font-size: 24px;
 	}
 
 	&__grid-container {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		gap: 0 10px;
+		gap: 0 25px;
 	}
 
 	&__item {
+		position: relative;
+		overflow: hidden;
 		text-align: center;
 		max-width: 100%;
 		background-color: $bg-color;
 		border: 1px #d4d4d4d4 solid;
 		padding: 40px 15px;
+		z-index: 1;
+		transition: all 0.5s;
+		&:hover {
+			&::before {
+				opacity: 1;
+			}
+			box-shadow: 13px 13px 12px -2px rgba(34, 60, 80, 0.2);			
+			background-color: #fff;
+			.rate__img {
+				fill: #fff;
+			}
+			
+			.rate__title-item {
+				color: #fff;
+			}
+
+			.rate__descr {
+				p {
+					color: #fff;
+				}
+			}
+
+		}
+		&::before {
+			content: "";
+			position: absolute;
+			opacity: 0;
+			top: -776px;
+			left: -383px;
+			width: 1000px;
+			height: 1000px;
+			background-color: $main-color;
+			border-radius: 100%;
+			transition: all 0.5s;
+			z-index: -1;
+		}
 	}
 
+
 	&__img {
+		position: relative;
 		width: 100px;
 		height: 100px;
 		margin-bottom: 10px;
+		transition: all 0.5s;
+		z-index: 3;
 	}
 
 	&__descr {
 		font-size: 15px;
 		font-weight: 300;
 		margin-bottom: 10px;
+		z-index: 3;
 		p {
 			margin-bottom: 10px;
+			transition: all 0.5s;
 		}
 
 	}
@@ -44,6 +89,7 @@
 		font-weight: 700;
 		margin-bottom: 20px;
 		color: $main-color;
+		z-index: 3;
 	}
 
 	&__price {
