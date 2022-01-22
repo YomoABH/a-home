@@ -1,0 +1,58 @@
+.rate {
+	padding-top: 65px;
+	&__title {
+		margin-bottom: 20px;
+	}
+	
+	&__title-item {
+		text-transform: uppercase;
+		font-size: 24px;
+	}
+
+	&__grid-container {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 0 10px;
+	}
+
+	&__item {
+		text-align: center;
+		max-width: 100%;
+		background-color: $bg-color;
+		border: 1px #d4d4d4d4 solid;
+		padding: 40px 15px;
+	}
+
+	&__img {
+		width: 100px;
+		height: 100px;
+		margin-bottom: 10px;
+	}
+
+	&__descr {
+		font-size: 15px;
+		font-weight: 300;
+		margin-bottom: 10px;
+		p {
+			margin-bottom: 10px;
+		}
+
+	}
+
+	&__speed {
+		font-size: 32px;
+		font-weight: 700;
+		margin-bottom: 20px;
+		color: $main-color;
+	}
+
+	&__price {
+		font-size: 24px;
+		margin-bottom: 50px;
+
+	}
+
+	&__btn {
+	}
+}
+
