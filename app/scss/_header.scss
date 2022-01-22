@@ -1,0 +1,103 @@
+.header {
+	padding: 20px 0px;
+	min-height: 80px;
+	background-color: #fff;
+	&__inner {
+		display: flex;
+		align-items: center;
+	}
+
+	&__menu {
+
+	}
+
+	&__logo {
+		margin-right: 30px;
+	}
+}
+
+.menu {
+
+	&__icon {
+	}
+
+	&__body {
+	}
+
+	&__list {
+		display: flex;
+		div {
+			width: 130px;
+		}
+	}
+
+	&__link {
+		color: #1a1919;
+		font-weight: 300;
+		font-size: 15px;
+		line-height: 1.65;
+		margin-right: 30px;
+		transition: all 0.3s;
+	}
+
+	&__link-hover {
+		padding: 20px 0;
+	}
+
+	&__sub-list {
+		position: absolute;
+		opacity: 0;
+		top: 130px;
+		left: 430px;
+		text-align: center;
+		padding: 20px 0;
+		width: 250px;
+		border: #1a1919 1px solid;
+		border-radius: 5px;
+		background-color: #d4d4d4;
+		visibility: hidden;
+		z-index: 2;
+		div {
+			position: absolute;
+			top: -20px;
+			left: 50%;
+			width: 0; 
+			height: 0;
+			border-left: 30px solid transparent;
+			border-right: 30px solid transparent;
+			border-bottom: 40px solid #d4d4d4;
+			transform: translateX(-50%);
+		}
+	}
+
+	&__sublink {
+		color: #1a1919;
+		font-weight: 300;
+		font-size: 17px;
+		line-height: 1.65;
+		transition: all 0.3s;
+	}
+}
+.icon-menu {
+
+}
+
+.link__another-prolect {
+	padding: 10px;
+	border: 1px #000 solid;
+	border-radius: 5px;
+	&:hover {
+		border: 1px $main-color solid;
+	}
+}
+
+.menu__list > li:hover .menu__sub-list {
+	top: 84px;
+	transition: all 0.5s ;
+	opacity: 1;
+	visibility: visible;
+}
+
+body {
+	background-color: rgb(155, 152, 152);
+}

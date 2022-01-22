@@ -1,0 +1,40 @@
+body, 
+html {
+}
+// ПРИЖАТИЕ ФУТЕРА К НИЗУ СТРАНИЦЫ
+
+.wrapper {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.main {
+	flex: 1 1 auto;
+}
+
+// КОНТЕЙНЕР СТРАНИЦЫ 
+
+.container {
+	width: 1160px;
+	margin: 0 auto;
+}
+
+// УБИРАЮ ЛИШНИЕ СТИЛИ У LIST
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin-bottom: 0;
+}
+
+// УБОРКА ЛИШНЕГО У ССЫЛОК
+
+a {
+	text-decoration: none;
+	color: #1a1919;
+
+	&:hover {
+		color: $main-color;		
+	}
+}
