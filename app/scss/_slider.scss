@@ -79,6 +79,7 @@
 .main-slider {
 
 	.slick-slider{
+		height: 545px;
 		z-index: 1;
 	}
 	/* Слайдер запущен */
@@ -91,6 +92,7 @@
 	}
 	/* Ограничивающая оболочка */
 	.slick-list {
+		position: relative;
 		height: 545px;
 
 		overflow: hidden;

@@ -1,0 +1,28 @@
+.footer {
+	background-color: #3c3a3a;
+	padding: 40px 0px 30px 0px;
+	color: #fff;
+
+	&__nav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 60px;
+	li {
+		margin: 0 15px;
+	}
+		a {
+			font-weight: 300;
+			color: #fff;
+			transition: 0.5s;
+			&:hover {
+				text-decoration: underline;
+				opacity: 0.5;
+			}
+		}
+	}
+
+	&__text {
+		text-align: center;
+	}
+}
