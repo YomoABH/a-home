@@ -2,10 +2,47 @@
 	.container {
 		max-width: 960px;
 	}
+
+	.menu {
+
+		&__list div {
+			width: 15px;
+		}
+
+		&__link {
+			margin-right: 18px;
+		}
+	}
+
+
+	.main-slider {
+
+		.slick-slider{
+			height: 340px;
+		}
+	}	
+
+	.services {
+		&__grid-container {
+			margin: 0 auto;
+			justify-content: center;
+		}
+	}
+
+	.application {
+
+
+		&__contacts {
+			font-size: 25px;
+		}
+	}
+
 }
 
-@media (max-width: 1200px) {
-	
+@media (max-width: 991px) {
+	.container {
+		max-width: 750px;
+	}
 }
 
 @media (max-width: 1200px) {
