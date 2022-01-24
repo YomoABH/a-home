@@ -39,3 +39,21 @@ a {
 		color: $main-color;		
 	}
 }
+
+.button-to-top {
+	padding-top: 8px;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	width: 40px;
+	height: 40px;
+	background-color: $main-color;
+	border-radius: 100%;
+}
+.top__img {
+	fill: #fff;
+	display: block;
+	margin: auto;
+	max-width: 70%;
+	max-height: 70%;
+}

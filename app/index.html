@@ -15,7 +15,7 @@
 
 <body>
 	<div class="wrapper">
-		<header class="header">
+		<header id="top" class="header">
 			<div class="container">
 				<div class="header__inner">
 					<div class="header__logo">
@@ -143,10 +143,12 @@
 							d="M88.38,32.29l-37-27a1.5,1.5,0,0,0-1.78,0l-36,27a1.5,1.5,0,0,0-.6,1.2v52A1.5,1.5,0,0,0,14.5,87h73A1.5,1.5,0,0,0,89,85.5v-52A1.5,1.5,0,0,0,88.38,32.29ZM75,65H59V50H75ZM56,84H41V68H56Zm3-16H75V84H59ZM75,47H57.5A1.5,1.5,0,0,0,56,48.5V65H39.5A1.5,1.5,0,0,0,38,66.5V84H28V40H75ZM86,84H78V38.5A1.5,1.5,0,0,0,76.5,37h-50A1.5,1.5,0,0,0,25,38.5V84H16V34.25L50.51,8.37,86,34.26Z" />
 					</g>
 				</symbol>
-				<symbol>
-					<g>
-
+				<symbol id="upp" viewBox="0 0 512 512">
+					<g id="icomoon-ignore">
 					</g>
+					<path
+						d="M438.627 201.373l-160-160c-12.496-12.497-32.757-12.497-45.254 0l-160 160c-12.497 12.497-12.497 32.758 0 45.255s32.758 12.498 45.255 0l105.372-105.373v306.745c0 17.673 14.327 32 32 32s32-14.327 32-32v-306.745l105.373 105.373c6.248 6.248 14.438 9.372 22.627 9.372s16.379-3.124 22.627-9.373c12.497-12.497 12.497-32.757 0-45.254z">
+					</path>
 				</symbol>
 				<symbol>
 					<g>
@@ -156,6 +158,12 @@
 
 			</svg>
 
+			<a href="#top" class="button-to-top">
+				<svg class="top__img">
+					<use xlink:href="#upp"></use>
+				</svg>
+
+			</a>
 
 			<section class="main-slider">
 				<div class="main-slider__items">
@@ -186,7 +194,7 @@
 							</div>
 							<div class="rate__speed">20 Мбит/с</div>
 							<div class="rate__price">450 руб./мес.</div>
-							<a href="#" class="rate__btn btn">Подключиться</a>
+							<a href="#application" class="rate__btn btn">Подключиться</a>
 						</div>
 						<div class="rate__item">
 							<svg class="rate__img">
@@ -200,7 +208,7 @@
 							</div>
 							<div class="rate__speed">45 Мбит/с</div>
 							<div class="rate__price">700 руб./мес.</div>
-							<a href="#" class="rate__btn btn">Подключиться</a>
+							<a href="#application" class="rate__btn btn">Подключиться</a>
 						</div>
 						<div class="rate__item">
 							<svg class="rate__img">
@@ -213,7 +221,7 @@
 							</div>
 							<div class="rate__speed">100 Мбит/с</div>
 							<div class="rate__price">1000 руб./мес.</div>
-							<a href="#" class="rate__btn btn">Подключиться</a>
+							<a href="#application" class="rate__btn btn">Подключиться</a>
 						</div>
 					</div>
 				</div>
@@ -349,7 +357,7 @@
 				</div>
 			</section>
 
-			<section class="application">
+			<section id="application" class="application">
 				<h2 class="application__title title">Оставить заявку на подключение</h2>
 				<h3 class="application__subtitle">Отправьте заявку и мы Вам перезвоним.</h3>
 				<div class="container">
