@@ -1,0 +1,75 @@
+.application {
+	padding: 45px 0px 80px 0px;
+	background-color: $bg-color;
+	&__title {
+		margin-bottom: 20px;
+	}
+
+	&__subtitle {
+		text-align: center;
+		font-size: 24px;
+		font-weight: 700;
+		margin-bottom: 80px;
+	}
+
+	&__grid-container {
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+		align-items: center;
+	}
+
+	&__form {
+		display: flex;
+		flex-direction: column;
+		width: 400px;
+		input {
+			transition: all 0.5s;
+			padding-left: 30px;
+			outline: 0px;
+			height: 45px;
+			border: 1px #d4d4d4d4 solid;
+			margin: 10px 0;
+			&:hover {
+				border: $main-color 1px solid;
+			}
+		}
+		button {
+			background-color: $bg-color;
+			text-transform: uppercase;
+		}
+	}
+	&__title-form {
+		font-size: 24px;
+		font-weight: 700;
+	}
+
+	&__radio {
+		display: flex;
+		align-items: center;
+		color: #000;
+		font-size: 15px;
+		font-weight: 300;
+		input {
+			height: 20px;
+		}
+		span {
+			margin-left: 10px;
+		}
+	}
+
+	&__contacts {
+		justify-self: center;
+		font-size: 24px;
+		font-weight: 300;
+
+	}
+
+	&__phone {
+	}
+
+	&__mail {
+	}
+
+	&__adr {
+	}
+}
