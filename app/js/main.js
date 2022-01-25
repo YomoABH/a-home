@@ -11,7 +11,6 @@ $('.main-slider__items').slick({
 			settings: {
 				autoplay: true,
 				autoplaySpeed: 6000,
-
 				infinite: true,
 				arrows: false,
 				dots: true
