@@ -1,0 +1,49 @@
+.apartaments {
+	padding: 45px 0px 120px 0px;
+
+	&__title {
+		text-transform: uppercase;
+		margin-bottom: 20px;
+
+	}
+
+	&__descr {
+		text-align: center;
+		font-size: 27px;
+		font-weight: 300;	
+		margin-bottom: 120px;
+
+	}
+
+	&__table {
+		min-width: 100%;
+		th {
+			min-width: 33%;
+		}
+	}
+}
+.partaments {
+
+	&__table-title {
+		border-bottom: 1px solid #000;
+	}
+
+	&__table-title-el {
+		font-size: 24px;
+		
+	}
+
+	&__table-info {
+		border-bottom: 1px solid #d4d4d4d4;
+		border-top: 1px solid #d4d4d4d4;
+		&_1 {
+			background-color: $bg-color;
+		}
+	}
+
+	&__table-info-el {
+		padding: 15px 0;
+		font-size: 19px;
+		font-weight: 300;
+	}
+}
