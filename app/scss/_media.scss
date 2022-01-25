@@ -115,7 +115,7 @@
 	.menu {
 
 		&__list div {
-			width: 15px;
+			width: 12px;
 		}
 
 		&__link {
@@ -177,7 +177,7 @@
 			font-weight: 300;
 			font-size: 15px;
 			line-height: 1.65;
-			margin-right: 30px;
+			margin-right: 0px;
 			transition: all 0.3s;
 		}
 	
@@ -208,7 +208,7 @@
 			font-weight: 300;
 			font-size: 20px;
 			line-height: 1.65;
-			margin-right: 30px;
+			margin-right: 0px;
 			transition: all 0.3s;
 		}
 	}
@@ -221,8 +221,8 @@
 			z-index: 50;
 			display: block;
 			position: absolute;
-			right: 16px;
-			top: 4%;
+			right: 20px;
+			top: 30px;
 			transform: translateY(-50%);
 			width: 40px;
 			height: 24px;
@@ -270,7 +270,7 @@
 			top: -1000px;
 			left: 0;
 			width: 100%;
-			height: 100vh;
+			height: 100%;
 			padding: 60px 15px 20px 15px;
 			transition: all 0.6s ease 0s;
 			background: #FFFFFF;
@@ -349,6 +349,19 @@
 
 	.menu {
 		display: block;
+	}
+
+	.iptv {
+		padding: 30px 0px 60px 0px;
+			&__title {
+				text-transform: uppercase;
+				margin-bottom: 20px;
+			}
+	
+			&__descr {
+				font-size: 25px;
+				margin-bottom: 100px;
+			}
 	}
 }
 
@@ -462,6 +475,15 @@
 			}
 		}
 	}
+
+	.iptv {
+	
+			&__descr {
+				font-size: 21px;
+				margin-bottom: 80px;
+			}
+	}
+
 }
 
 @media (max-width: 575px) {
@@ -647,6 +669,15 @@
 				font-size: 12px;
 			}
 		}
+	}
+
+	.iptv {
+		padding: 20px 0px 40px 0px;
+	
+			&__descr {
+				font-size: 16px;
+				margin-bottom: 45px;
+			}
 	}
 
 }
