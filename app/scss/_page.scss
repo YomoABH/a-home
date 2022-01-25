@@ -49,6 +49,7 @@ a {
 	height: 40px;
 	background-color: $main-color;
 	border-radius: 100%;
+	z-index: 1000;
 }
 .top__img {
 	fill: #fff;
