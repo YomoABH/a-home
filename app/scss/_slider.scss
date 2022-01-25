@@ -148,8 +148,8 @@
 	.slick-arrow.slick-next{
 		content: "";
 		background: url(../img/slider/next.svg) center center / cover no-repeat;
-		min-width: 52px;
-		min-height: 52px;
+		width: 52px;
+		height: 52px;
 		right: 25px;
 		transition: all 0.5s;
 		&:hover {

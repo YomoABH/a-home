@@ -208,8 +208,113 @@
 	.container {
 		width: 	540px;
 	}
+
+	.main-slider {
+
+		.slick-slider{
+			height: 197px;
+		}
+
+		.slick-list {
+			height: 197px;
+		}
+
+		.slick-arrow.slick-prev {
+			width: 40px;
+			height: 40px;
+		}
+
+		.slick-arrow.slick-next {
+			width: 40px;
+			height: 40px;
+		}
+
+	}	
+
+	.rate {
+
+		&__title {
+			margin-bottom: 30px;
+		}
+
+		&__grid-container {
+			grid-template-columns: repeat(2, 1fr);
+			gap: 30px 25px;
+		}
+	}
+
+	.services {
+
+		&__title {
+			margin-bottom: 30px;
+		}
+
+		&__item {
+			width: 350px;
+		}
+	}
+
+	.news {
+
+		&__title {
+			margin-bottom: 30px;
+		}
+
+		&__items-title {
+			font-size: 21px;
+		}
+	
+		&__text {
+			font-size: 16px;
+		}
+	
+	}
+
+	.application {
+
+		&__subtitle {
+			font-size: 21px;
+			margin-bottom: 45px;
+		}
+	
+		&__form {
+			width: 260px;
+			input {
+				padding-left: 20px;
+				margin: 5px 0;
+			}
+		}
+		
+		&__title-form {
+			font-size: 21px;
+		}
+
+		&__radio {
+			input {
+				height: 15px;
+			}
+		}
+	
+		&__contacts {
+			justify-self: center;
+			font-size: 21px;
+			font-weight: 300;
+		}
+	}
+
+	.footer {
+		&__nav {
+			margin-bottom: 30px;
+			li {
+				margin: 0 8px;
+			}
+			a {
+				font-size: 12px;
+			}
+		}
+	}
 }
 
 @media (max-width: 1200px) {
-	
+
 }
