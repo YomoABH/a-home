@@ -9,6 +9,9 @@ $('.main-slider__items').slick({
 		{
 			breakpoint: 575,
 			settings: {
+				autoplay: true,
+				autoplaySpeed: 6000,
+
 				infinite: true,
 				arrows: false,
 				dots: true
