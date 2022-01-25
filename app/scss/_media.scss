@@ -153,62 +153,6 @@
 		max-width: 750px;
 	}
 
-	.main-slider {
-
-		.slick-slider{
-			height: 265px;
-		}
-
-		.slick-list {
-			height: 265px;
-		}
-	}	
-
-	.rate {
-		padding-top: 30px;
-		padding-bottom: 60px;
-	}
-
-	.services {
-		padding: 30px 0px 60px 0px;
-		
-		&__item {
-			width: 315px;
-		}
-	}
-
-	.news {
-		padding: 30px 0px 60px 0px;
-
-		&__grid-container {
-			grid-template-columns: repeat(2, 1fr);
-
-		}
-	}
-
-	.application {
-		padding: 30px 0px 60px 0px;
-
-		&__grid-container {
-			grid-template-columns: 1fr 1fr;
-		}
-	
-		&__contacts {
-			font-size: 24px;
-		}
-
-	}
-
-	.menu {
-		display: block;
-	}
-}
-
-@media (max-width: 767px) {
-	.container {
-		width: 	540px;
-	}
-
 	.menu {
 
 		&__icon {
@@ -269,7 +213,6 @@
 		}
 	}
 	
-
 
 
 	.menu {
@@ -354,6 +297,64 @@
 
 	.ms-none {
 		display: none;
+	}
+
+
+
+	.main-slider {
+
+		.slick-slider{
+			height: 265px;
+		}
+
+		.slick-list {
+			height: 265px;
+		}
+	}	
+
+	.rate {
+		padding-top: 30px;
+		padding-bottom: 60px;
+	}
+
+	.services {
+		padding: 30px 0px 60px 0px;
+		
+		&__item {
+			width: 315px;
+		}
+	}
+
+	.news {
+		padding: 30px 0px 60px 0px;
+
+		&__grid-container {
+			grid-template-columns: repeat(2, 1fr);
+
+		}
+	}
+
+	.application {
+		padding: 30px 0px 60px 0px;
+
+		&__grid-container {
+			grid-template-columns: 1fr 1fr;
+		}
+	
+		&__contacts {
+			font-size: 24px;
+		}
+
+	}
+
+	.menu {
+		display: block;
+	}
+}
+
+@media (max-width: 767px) {
+	.container {
+		width: 	540px;
 	}
 
 

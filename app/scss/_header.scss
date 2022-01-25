@@ -28,7 +28,7 @@
 		position: relative;
 		display: flex;
 		div {
-			width: 130px;
+			width: 120px;
 		}
 	}
 
@@ -86,7 +86,7 @@
 
 
 .menu__list > li:hover .menu__sub-list {
-	top: 84px;
+	top: 55px;
 	transition: all 0.5s ;
 	opacity: 1.0;
 	visibility: visible;
