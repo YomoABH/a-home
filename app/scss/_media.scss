@@ -315,6 +315,190 @@
 	}
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 575px) {
+	.container {
+		width: 100%;
+		padding: 0 10px;
+	}
+
+	.main-slider {
+
+		.slick-slider{
+			height: 120px;
+		}
+
+		.slick-list {
+			height: 120px;
+		}
+
+		.slick-dots{
+			position: absolute;
+			left: 50%;
+			bottom: 10px;
+			transform: translateX(-50%);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border: none;
+		}
+		.slick-dots li{
+			width: 10px;
+			height: 10px;
+			border-radius: 50%;
+			background-color: #fff;
+			font-size: 0;
+			margin: 0 5px;
+		}
+		/* Активная точка */
+		.slick-dots li.slick-active{
+		border: 1px #000 solid;
+		}
+		/* Элемент точки */
+		.slick-dots li button{
+			border: none;
+			width: 1px;
+			min-width: 5px;
+			padding: 0 0;
+		}
+	}	
+
+
+	.header {
+		min-height: 60px;
+		padding: 15px 0;
+	}
+
+	.rate {
+		padding-top: 20px;
+		padding-bottom: 40px;
+	
+		&__title {
+			margin-bottom: 20px;
+		}
+
+		&__grid-container {
+			margin: 0 auto;
+			grid-template-columns: 250px;
+			gap: 30px 25px;
+			justify-content: center;
+		}
+
+		&__item {
+			padding: 10px 10px 40px 10px;
+		}
+	
+	
+		&__img {
+			height: 100px;
+			margin-bottom: 5px;
+		}
+	
+		&__descr {
+			margin-bottom: 5px;
+			p {
+				margin-bottom: 5px;
+			}
+	
+		}
+	
+		&__speed {
+			margin-bottom: 10px;
+		}
+	
+		&__price {
+			font-size: 24px;
+			margin-bottom: 20px;
+	
+		}	
+	}
+
+	.services {
+		padding: 20px 0px 40px 0px;
+
+		&__title {
+			margin-bottom: 30px;
+		}
+
+		&__item {
+			width: 307px;
+		}
+	}
+
+
+	.news {
+
+		&__grid-container {
+			grid-template-columns: 1fr;
+
+		}
+		&__title {
+			margin-bottom: 30px;
+		}
+
+		&__items-title {
+			font-size: 21px;
+		}
+	
+		&__text {
+			font-size: 16px;
+		}
+	
+	}
+
+
+	.application {
+		padding: 20px 0px 40px 0px;
+
+
+		&__subtitle {
+			font-size: 15px;
+			margin-bottom: 25px;
+		}
+	
+		&__grid-container {
+			display: grid;
+			justify-items: center;
+			grid-template-columns: 1fr;
+			align-items: center;
+			gap: 30px;
+		}
+	
+
+		&__form {
+			width: 260px;
+			input {
+				padding-left: 20px;
+				margin: 5px 0;
+			}
+		}
+		
+		&__title-form {
+			font-size: 15px;
+		}
+
+		&__radio {
+			input {
+				height: 15px;
+			}
+		}
+	
+		&__contacts {
+			justify-self: center;
+			text-align: center;
+		}
+	}
+
+	.footer {
+		&__nav {
+			margin-bottom: 30px;
+			flex-wrap: wrap;
+			li {
+				margin: 0 8px;
+			}
+			a {
+				font-size: 12px;
+			}
+		}
+	}
 
 }

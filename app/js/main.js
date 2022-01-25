@@ -4,5 +4,15 @@ $('.main-slider__items').slick({
 	infinite: true,
 	speed: 1000,
 	fade: true,
-	cssEase: 'linear'
+	cssEase: 'linear',
+	responsive: [
+		{
+			breakpoint: 575,
+			settings: {
+				infinite: true,
+				arrows: false,
+				dots: true
+			}
+		}
+	]
 });
