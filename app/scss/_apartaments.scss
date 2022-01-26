@@ -3,6 +3,7 @@
 
 	&__title {
 		text-transform: uppercase;
+		font-size: 54px;
 		margin-bottom: 20px;
 
 	}
@@ -16,24 +17,31 @@
 	}
 
 	&__table {
-		min-width: 100%;
-		th {
-			min-width: 33%;
-		}
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(4, 50px);
+		grid-auto-rows: 60px;
 	}
 }
 .partaments {
 
 	&__table-title {
+		display: flex;
+		align-items: center;
+		padding-left: 15px;
 		border-bottom: 1px solid #000;
 	}
 
 	&__table-title-el {
+		width: 33.333%;
 		font-size: 24px;
 		
 	}
 
 	&__table-info {
+		display: flex;
+		align-items: center;
+		padding-left: 15px;
 		border-bottom: 1px solid #d4d4d4d4;
 		border-top: 1px solid #d4d4d4d4;
 		&_1 {
@@ -42,7 +50,7 @@
 	}
 
 	&__table-info-el {
-		padding: 15px 0;
+		width: 33.333%;
 		font-size: 19px;
 		font-weight: 300;
 	}
