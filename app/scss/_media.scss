@@ -424,6 +424,15 @@
 			margin-bottom: 100px;
 		}
 	}
+	.st-ip {
+		padding: 30px 0px 60px 0px;
+	
+		&__descr {
+			font-size: 25px;
+			margin-bottom: 100px;
+		}
+	}
+	
 }
 
 @media (max-width: 767px) {
@@ -580,6 +589,13 @@
 			justify-content: center;
 			justify-items: center;
 	
+		}
+	}
+
+	.st-ip {
+		&__descr {
+			font-size: 21px;
+			margin-bottom: 80px;
 		}
 	}
 
@@ -801,6 +817,7 @@
 		}
 	}
 	.wttxs {	
+		padding: 20px 0px 40px 0px;
 		&__descr {
 			font-size: 15px;
 			margin-bottom: 40px;
@@ -813,5 +830,11 @@
 		}
 	}
 
-
+	.st-ip {
+		padding: 20px 0px 40px 0px;
+		&__descr {
+			font-size: 15px;
+			margin-bottom: 40px;
+	}
+	}
 }
