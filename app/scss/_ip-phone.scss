@@ -1,0 +1,48 @@
+.ip-phone {
+	padding: 45px 0px 120px 0px;
+	&__title {
+		margin-bottom: 20px;
+	}
+
+	&__descr {
+		text-align: center;
+		font-size: 27px;
+		font-weight: 300;	
+		margin-bottom: 120px;
+	}
+
+	&__ps {
+		padding: 30px 0;
+		font-size: 21px;
+		font-weight: 300;	
+color: #000;
+	}
+}
+
+.apartaments {
+
+	&__table {
+	}
+
+	&__table-title {
+	}
+
+	&__table-title-el {
+
+		&_50 {
+			width: 50%;
+		}
+	}
+
+	&__table-info {
+
+		&_1 {
+		}
+	}
+
+	&__table-info-el {
+		&_50 {
+			width: 50%;
+		}
+	}
+}
