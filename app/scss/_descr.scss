@@ -1,0 +1,30 @@
+.descr {
+	text-align: center;
+	font-size: 27px;
+	font-weight: 300;	
+	margin-bottom: 120px;
+
+}
+
+@media (max-width: 991px) {
+	.descr {
+		font-size: 25px;
+		margin-bottom: 100px;
+	}
+
+}
+
+@media (max-width: 767px) {
+	.descr {
+		font-size: 21px;
+		margin-bottom: 80px;
+	}
+}
+
+@media (max-width: 575px) {
+	.descr {
+	font-size: 15px;
+	margin-bottom: 40px;
+}
+}
+
