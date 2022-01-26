@@ -1,0 +1,29 @@
+.news-discount {
+
+	&__title {
+	}
+
+	&__descr {
+		text-align: left;
+		p {
+			margin-bottom: 45px;
+		}
+	}
+
+	&__span-red {
+		font-weight: 700;
+		color: $main-color;
+	}
+
+	&__img {
+		max-width: 100%;
+		padding: 40px 0;
+		display: block;
+		margin: 0 auto;
+	}
+
+	&__span-black {
+		font-weight: 700;
+		text-decoration: underline;
+	}
+}
