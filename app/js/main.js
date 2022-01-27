@@ -27,3 +27,15 @@ if (iconMenu) {
 		iconMenu.classList.toggle('_active');
 	});
 }
+
+
+$(document).ready(function () {
+	$('.btn-modal').on('click', function () {
+		$('.overline,  #consultation').fadeIn(400);
+	});
+
+	$('.modal__close').on('click', function () {
+		$('.overline, #consultation').fadeOut(300);
+	});
+
+});
