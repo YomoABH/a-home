@@ -1,0 +1,42 @@
+.faq {
+
+	&__descr {
+		margin: 30px;
+	}
+
+	&__details {
+		p {
+			padding-left: 30px;
+			margin-bottom: 40px;
+		}
+		a {
+			color: $main-color;
+		}
+		margin-bottom: 13px;
+		text-align: left;
+		transition: all 0.5s;
+		summary {
+			display: inline-block;
+			transition: all 0.5s;
+			font-size: 15px;
+			font-weight: 700;
+			text-align: left;
+			border-radius: 16px;
+			border: 1px solid #C6C6C6;
+			padding: 10px 30px;
+			cursor: pointer;
+			width: 100%;
+			&:before {
+				content: "+";
+				margin-right: .3em;
+		}
+	}
+}
+	details[open] > summary {
+		border: 1px solid #16145A;
+		}
+		details[open] > summary:before {
+			content: "–";
+		}
+	
+}
