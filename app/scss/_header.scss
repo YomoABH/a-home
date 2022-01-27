@@ -12,7 +12,23 @@
 	}
 
 	&__logo {
+		display: block;
+		width: 120px;
 		margin-right: 30px;
+		position: relative;
+		&::before {
+			content: "";
+			position: absolute;
+			background: url(../img/icon/logo2.png) center center/cover no-repeat;
+			top: -30px;
+			left: -30px;
+			width: 180px;
+			height: 60px;
+			z-index: 100000;
+		}
+		img {
+			max-width: 100%;
+		}
 	}
 }
 

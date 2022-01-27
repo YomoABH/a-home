@@ -440,7 +440,11 @@
 		width: 	540px;
 	}
 
-
+	.header__logo {
+		&::before {
+			top: -15px;
+		}
+	}
 	.main-slider {
 
 		.slick-slider{
