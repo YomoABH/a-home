@@ -377,19 +377,20 @@
 				<h3 class="application__subtitle">Отправьте заявку и мы Вам перезвоним.</h3>
 				<div class="container">
 					<div class="application__grid-container">
-						<form action="#" class="application__form">
+						<form action="mailsend.php" method="POST" class="application__form">
 							<h6 class="application__title-form">Категория заявки</h6>
 							<label class="application__radio" for="#">
-								<input class="application__radio application__radio_1" name="type" type="radio"
-									value="Новое подключение" checked>
+								<input class="application__radio application__radio_1" name="applicationRadio"
+									id="applicationRadio" type="radio" value="Новое подключение" checked>
 							</label>
 							<label class="application__radio" for="#">
-								<input class="application__radio application__radio_2" name="type" type="radio"
-									value="Обращение в службу поддержки">
+								<input class="application__radio application__radio_2" name="applicationRadio"
+									id="applicationRadio" type="radio" value="Обращение в службу поддержки">
 							</label>
-							<input required placeholder="ФИО" type="text">
-							<input required placeholder="Контактный номер телефона" type="number">
-							<input required placeholder="Адрес проживания" type="text">
+							<input name="userFullName" id="userFullName" required placeholder="ФИО" type="text">
+							<input name="userNumberPhone" id="userNumberPhone" required placeholder="Контактный номер телефона"
+								type="number">
+							<input name="userAddress" id="userAddress" required placeholder="Адрес проживания" type="text">
 							<button class="btn">отправить</button>
 						</form>
 						<div class="application__contacts">
