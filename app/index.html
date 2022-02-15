@@ -377,7 +377,7 @@
 				<h3 class="application__subtitle">Отправьте заявку и мы Вам перезвоним.</h3>
 				<div class="container">
 					<div class="application__grid-container">
-						<form action="mailsend.php" method="POST" class="application__form">
+						<form id="mainForm" action="mailsend.php" method="POST" class="application__form">
 							<h6 class="application__title-form">Категория заявки</h6>
 							<label class="application__radio" for="#">
 								<input class="application__radio application__radio_1" name="applicationRadio"
@@ -388,8 +388,8 @@
 									id="applicationRadio" type="radio" value="Обращение в службу поддержки">
 							</label>
 							<input name="userFullName" id="userFullName" required placeholder="ФИО" type="text">
-							<input name="userNumberPhone" id="userNumberPhone" required placeholder="Контактный номер телефона"
-								type="number">
+							<input name="userNumberPhone" id="userNumberPhone" required
+								placeholder="Контактный номер телефона">
 							<input name="userAddress" id="userAddress" required placeholder="Адрес проживания" type="text">
 							<button class="btn">отправить</button>
 						</form>
@@ -419,6 +419,7 @@
 	</div>
 	<script src="js/jquery-3.6.0.min.js"></script>
 	<script src="js/slick.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/main.min.js"></script>
 </body>
 
